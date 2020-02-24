@@ -1,0 +1,71 @@
+h1 {
+  text-align: center;
+  font-family: hevetica;
+  font-size: 9vh;
+}
+
+#farm {
+  grid-row: 2;
+  grid-column: 2;
+  height: 60vh;
+  display: grid;
+  grid-template: repeat(3, 300px) / repeat(3, 300px);
+  justify-items: center;
+  justify-content: center;
+  background-color: #008000;
+  align-items: center;
+  align-content: center;
+}
+body {
+  height: 100vh;
+  display: grid;
+  grid-template: 1fr 3fr 1fr / 1fr 3fr 1fr;
+}
+#score {
+  display: flex;
+  grid-column: span 1;
+  grid-row: 2;
+  font-size: 5vw;
+  justify-items: center;
+  justify-content: center;
+  flex-wrap: row;
+}
+header {
+  grid-column: span 3;
+}
+table {
+  display: contents;
+}
+tbody {
+  display: contents;
+}
+tr {
+  display: contents;
+}
+td {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  margin: 10px;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+td:hover {
+  border: 4px dashed #1c6ea4;
+}
+.seeds {
+  grid-area: 3 / 1 / 3/ 4;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 2vh;
+}
+.seeds img:hover{
+  transform: scale(1.1);
+  transition: all ease 500ms;
+}
+img {
+  max-width: 100%;
+  max-height: 100vh;
+  height: auto;
+}
