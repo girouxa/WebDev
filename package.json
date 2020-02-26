@@ -1,0 +1,25 @@
+{
+  "name": "webdev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/girouxa/WebDev.git"
+  },
+  "author": "annie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/girouxa/WebDev/issues"
+  },
+  "homepage": "https://github.com/girouxa/WebDev#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
